@@ -1,0 +1,2976 @@
+{
+  "role": "WebArea",
+  "name": "eggs - Walmart.com",
+  "children": [
+    {
+      "role": "link",
+      "name": "",
+      "keyshortcuts": "150",
+      "focused": true
+    },
+    {
+      "role": "link",
+      "name": "Skip to Main Content",
+      "keyshortcuts": "151"
+    },
+    {
+      "role": "button",
+      "name": "Menu",
+      "keyshortcuts": "154"
+    },
+    {
+      "role": "link",
+      "name": "Walmart Homepage",
+      "keyshortcuts": "156"
+    },
+    {
+      "role": "searchbox",
+      "name": "Search",
+      "keyshortcuts": "163",
+      "autocomplete": "list",
+      "haspopup": "listbox",
+      "value": "eggs"
+    },
+    {
+      "role": "button",
+      "name": "Search icon",
+      "keyshortcuts": "166"
+    },
+    {
+      "role": "button",
+      "name": "Cart contains 0 items Total Amount $0.00",
+      "keyshortcuts": "203"
+    },
+    {
+      "role": "button",
+      "name": "How do you want your items? Sacramento, 95829 \u2022 Sacramento Supercenter",
+      "keyshortcuts": "212"
+    },
+    {
+      "role": "IframePresentational",
+      "name": "Walmart Advertisement",
+      "keyshortcuts": "312"
+    },
+    {
+      "role": "text",
+      "name": "Sponsored"
+    },
+    {
+      "role": "button",
+      "name": "Ad disclaimer and feedback",
+      "description": "Ad disclaimer and feedback",
+      "keyshortcuts": "319"
+    },
+    {
+      "role": "switch",
+      "name": "Filter by In-store",
+      "keyshortcuts": "328",
+      "checked": false
+    },
+    {
+      "role": "button",
+      "name": "Filter by Price not applied, activate to change",
+      "keyshortcuts": "334"
+    },
+    {
+      "role": "button",
+      "name": "Filter by Brand not applied, activate to change",
+      "keyshortcuts": "341"
+    },
+    {
+      "role": "button",
+      "name": "Filter by Fulfillment Speed not applied, activate to change",
+      "keyshortcuts": "347"
+    },
+    {
+      "role": "switch",
+      "name": "Subscription New! View available subscription items. Cancel anytime.",
+      "keyshortcuts": "355",
+      "checked": false
+    },
+    {
+      "role": "text",
+      "name": "Subscription Callout"
+    },
+    {
+      "role": "text",
+      "name": "New! View available subscription items. Cancel anytime."
+    },
+    {
+      "role": "button",
+      "name": "Close Subscription Callout",
+      "keyshortcuts": "365"
+    },
+    {
+      "role": "text",
+      "name": "Sort by"
+    },
+    {
+      "role": "button",
+      "name": "Sort by Best Match",
+      "keyshortcuts": "370"
+    },
+    {
+      "role": "list",
+      "name": "",
+      "keyshortcuts": "378",
+      "children": [
+        {
+          "role": "link",
+          "name": "Shop dairy rollbacks",
+          "keyshortcuts": "380"
+        },
+        {
+          "role": "link",
+          "name": "Eggs 12 count",
+          "keyshortcuts": "382"
+        },
+        {
+          "role": "link",
+          "name": "Eggs 18 count",
+          "keyshortcuts": "384"
+        },
+        {
+          "role": "link",
+          "name": "Eggs 60 count",
+          "keyshortcuts": "386"
+        },
+        {
+          "role": "link",
+          "name": "Organic eggs",
+          "keyshortcuts": "388"
+        },
+        {
+          "role": "link",
+          "name": "Cage free eggs",
+          "keyshortcuts": "390"
+        },
+        {
+          "role": "link",
+          "name": "Large eggs",
+          "keyshortcuts": "392"
+        },
+        {
+          "role": "link",
+          "name": "Brown eggs",
+          "keyshortcuts": "394"
+        },
+        {
+          "role": "link",
+          "name": "White eggs",
+          "keyshortcuts": "396"
+        },
+        {
+          "role": "link",
+          "name": "Liquid eggs",
+          "keyshortcuts": "398"
+        },
+        {
+          "role": "link",
+          "name": "Great Value eggs",
+          "keyshortcuts": "400"
+        },
+        {
+          "role": "link",
+          "name": "Egg whites",
+          "keyshortcuts": "402"
+        },
+        {
+          "role": "link",
+          "name": "Hard-boiled eggs",
+          "keyshortcuts": "404"
+        },
+        {
+          "role": "link",
+          "name": "Recipe library",
+          "keyshortcuts": "406"
+        },
+        {
+          "role": "link",
+          "name": "Refrigerator bins",
+          "keyshortcuts": "408"
+        },
+        {
+          "role": "link",
+          "name": "Egg carriers",
+          "keyshortcuts": "410"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Next slide for chipModule list",
+      "keyshortcuts": "411"
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "keyshortcuts": "436",
+      "children": [
+        {
+          "role": "tab",
+          "name": "Departments",
+          "keyshortcuts": "440",
+          "children": [
+            {
+              "role": "button",
+              "name": "Departments",
+              "keyshortcuts": "441"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Price",
+          "keyshortcuts": "447",
+          "children": [
+            {
+              "role": "button",
+              "name": "Price",
+              "keyshortcuts": "448"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Brand",
+          "keyshortcuts": "454",
+          "children": [
+            {
+              "role": "button",
+              "name": "Brand",
+              "keyshortcuts": "455"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Fulfillment Speed",
+          "keyshortcuts": "461",
+          "children": [
+            {
+              "role": "button",
+              "name": "Fulfillment Speed",
+              "keyshortcuts": "462"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Subscription",
+          "keyshortcuts": "468",
+          "children": [
+            {
+              "role": "button",
+              "name": "Subscription",
+              "keyshortcuts": "469"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Availability",
+          "keyshortcuts": "475",
+          "children": [
+            {
+              "role": "button",
+              "name": "Availability",
+              "keyshortcuts": "476"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Egg Type",
+          "keyshortcuts": "482",
+          "children": [
+            {
+              "role": "button",
+              "name": "Egg Type",
+              "keyshortcuts": "483"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Nutritional Content",
+          "keyshortcuts": "489",
+          "children": [
+            {
+              "role": "button",
+              "name": "Nutritional Content",
+              "keyshortcuts": "490"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Egg Form",
+          "keyshortcuts": "496",
+          "children": [
+            {
+              "role": "button",
+              "name": "Egg Form",
+              "keyshortcuts": "497"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Special Diet Needs",
+          "keyshortcuts": "503",
+          "children": [
+            {
+              "role": "button",
+              "name": "Special Diet Needs",
+              "keyshortcuts": "504"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Calories Per Serving",
+          "keyshortcuts": "510",
+          "children": [
+            {
+              "role": "button",
+              "name": "Calories Per Serving",
+              "keyshortcuts": "511"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Special Offers",
+          "keyshortcuts": "517",
+          "children": [
+            {
+              "role": "button",
+              "name": "Special Offers",
+              "keyshortcuts": "518"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Customer Rating",
+          "keyshortcuts": "524",
+          "children": [
+            {
+              "role": "button",
+              "name": "Customer Rating",
+              "keyshortcuts": "525"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Retailer",
+          "keyshortcuts": "531",
+          "children": [
+            {
+              "role": "button",
+              "name": "Retailer",
+              "keyshortcuts": "532"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Gifting",
+          "keyshortcuts": "538",
+          "children": [
+            {
+              "role": "button",
+              "name": "Gifting",
+              "keyshortcuts": "539"
+            }
+          ]
+        },
+        {
+          "role": "tab",
+          "name": "Benefit Programs",
+          "keyshortcuts": "545",
+          "children": [
+            {
+              "role": "button",
+              "name": "Benefit Programs",
+              "keyshortcuts": "546"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "keyshortcuts": "551",
+      "children": [
+        {
+          "role": "heading",
+          "name": "Results for \"eggs\"(157)",
+          "keyshortcuts": "558",
+          "level": 2
+        },
+        {
+          "role": "text",
+          "name": "Uses external data. Price when purchased online"
+        },
+        {
+          "role": "button",
+          "name": "legal information",
+          "keyshortcuts": "563"
+        },
+        {
+          "role": "link",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "570"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "580"
+        },
+        {
+          "role": "image",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "582"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "585"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "590"
+        },
+        {
+          "role": "text",
+          "name": "Sponsored"
+        },
+        {
+          "role": "button",
+          "name": "Ad disclaimer and feedback",
+          "description": "Ad disclaimer and feedback",
+          "keyshortcuts": "599"
+        },
+        {
+          "role": "text",
+          "name": "current price $7.43"
+        },
+        {
+          "role": "text",
+          "name": "61.9 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "4.8 out of 5 Stars. 16042 reviews"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "627"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Large White Eggs, 18 Count",
+          "keyshortcuts": "638"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Large White Eggs, 18 Count",
+          "keyshortcuts": "647"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Large White Eggs, 18 Count",
+          "keyshortcuts": "649"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Large White Eggs, 18 Count",
+          "keyshortcuts": "652"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Large White Eggs, 18 Count",
+          "keyshortcuts": "657"
+        },
+        {
+          "role": "text",
+          "name": "current price $6.53"
+        },
+        {
+          "role": "text",
+          "name": "36.3 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Large White Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "679"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "690"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "699"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "701"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "704"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "709"
+        },
+        {
+          "role": "text",
+          "name": "current price $4.42"
+        },
+        {
+          "role": "text",
+          "name": "36.8 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage Free Large White Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "731"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 36 Count",
+          "keyshortcuts": "742"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Grade AA Large White Eggs, 36 Count",
+          "keyshortcuts": "751"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 36 Count",
+          "keyshortcuts": "753"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Grade AA Large White Eggs, 36 Count",
+          "keyshortcuts": "756"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Grade AA Large White Eggs, 36 Count",
+          "keyshortcuts": "761"
+        },
+        {
+          "role": "text",
+          "name": "current price $12.97"
+        },
+        {
+          "role": "text",
+          "name": "36.0 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 36 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "783"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Herb's Pickled Eggs 67 oz Gallon size plastic jar Packed In Vinegar",
+          "keyshortcuts": "794"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Herb's Pickled Eggs 67 oz Gallon size plastic jar Packed In Vinegar",
+          "keyshortcuts": "803"
+        },
+        {
+          "role": "image",
+          "name": "Herb's Pickled Eggs 67 oz Gallon size plastic jar Packed In Vinegar",
+          "keyshortcuts": "805"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Herb's Pickled Eggs 67 oz Gallon size plastic jar Packed In Vinegar",
+          "keyshortcuts": "808"
+        },
+        {
+          "role": "text",
+          "name": "current price $55.99"
+        },
+        {
+          "role": "text",
+          "name": "Herb's Pickled Eggs 67 oz Gallon size plastic jar Packed In Vinegar"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 2 left"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage Free Large AA White Eggs, 60 Count",
+          "keyshortcuts": "832"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage Free Large AA White Eggs, 60 Count",
+          "keyshortcuts": "841"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage Free Large AA White Eggs, 60 Count",
+          "keyshortcuts": "843"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage Free Large AA White Eggs, 60 Count",
+          "keyshortcuts": "846"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage Free Large AA White Eggs, 60 Count",
+          "keyshortcuts": "851"
+        },
+        {
+          "role": "text",
+          "name": "current price $21.44"
+        },
+        {
+          "role": "text",
+          "name": "35.7 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage Free Large AA White Eggs, 60 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "873"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Marketside Cage-Free Large Brown Eggs, 18 Count",
+          "keyshortcuts": "884"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Marketside Cage-Free Large Brown Eggs, 18 Count",
+          "keyshortcuts": "894"
+        },
+        {
+          "role": "image",
+          "name": "Marketside Cage-Free Large Brown Eggs, 18 Count",
+          "keyshortcuts": "896"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Marketside Cage-Free Large Brown Eggs, 18 Count",
+          "keyshortcuts": "899"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Marketside Cage-Free Large Brown Eggs, 18 Count",
+          "keyshortcuts": "904"
+        },
+        {
+          "role": "text",
+          "name": "current price $7.82"
+        },
+        {
+          "role": "text",
+          "name": "43.4 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Marketside Cage-Free Large Brown Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "926"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Marketside Large Cage-Free Brown Eggs, 12 Count",
+          "keyshortcuts": "937"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Marketside Large Cage-Free Brown Eggs, 12 Count",
+          "keyshortcuts": "947"
+        },
+        {
+          "role": "image",
+          "name": "Marketside Large Cage-Free Brown Eggs, 12 Count",
+          "keyshortcuts": "949"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Marketside Large Cage-Free Brown Eggs, 12 Count",
+          "keyshortcuts": "952"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Marketside Large Cage-Free Brown Eggs, 12 Count",
+          "keyshortcuts": "957"
+        },
+        {
+          "role": "text",
+          "name": "current price $5.54"
+        },
+        {
+          "role": "text",
+          "name": "46.2 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Marketside Large Cage-Free Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "979"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "994"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1004"
+        },
+        {
+          "role": "image",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1006"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1009"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1014"
+        },
+        {
+          "role": "text",
+          "name": "current price $7.43"
+        },
+        {
+          "role": "text",
+          "name": "61.9 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Vital Farms Pasture Raised Grade A Large Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1036"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count",
+          "keyshortcuts": "1047"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count",
+          "keyshortcuts": "1056"
+        },
+        {
+          "role": "image",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count",
+          "keyshortcuts": "1058"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count",
+          "keyshortcuts": "1061"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count",
+          "keyshortcuts": "1066"
+        },
+        {
+          "role": "text",
+          "name": "current price $9.78"
+        },
+        {
+          "role": "text",
+          "name": "54.3 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1088"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Marketside Organic Cage-Free Brown Large Eggs, 18 Count",
+          "keyshortcuts": "1099"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Marketside Organic Cage-Free Brown Large Eggs, 18 Count",
+          "keyshortcuts": "1108"
+        },
+        {
+          "role": "image",
+          "name": "Marketside Organic Cage-Free Brown Large Eggs, 18 Count",
+          "keyshortcuts": "1110"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Marketside Organic Cage-Free Brown Large Eggs, 18 Count",
+          "keyshortcuts": "1113"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Marketside Organic Cage-Free Brown Large Eggs, 18 Count",
+          "keyshortcuts": "1118"
+        },
+        {
+          "role": "text",
+          "name": "current price $8.32"
+        },
+        {
+          "role": "text",
+          "name": "46.2 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Marketside Organic Cage-Free Brown Large Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1140"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Marketside Organic Cage-Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1151"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Marketside Organic Cage-Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1161"
+        },
+        {
+          "role": "image",
+          "name": "Marketside Organic Cage-Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1163"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Marketside Organic Cage-Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1166"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Marketside Organic Cage-Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1171"
+        },
+        {
+          "role": "text",
+          "name": "current price $5.86"
+        },
+        {
+          "role": "text",
+          "name": "48.8 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Marketside Organic Cage-Free Large Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1193"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+          "keyshortcuts": "1204"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+          "keyshortcuts": "1214"
+        },
+        {
+          "role": "image",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+          "keyshortcuts": "1216"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+          "keyshortcuts": "1219"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+          "keyshortcuts": "1224"
+        },
+        {
+          "role": "text",
+          "name": "current price $6.93"
+        },
+        {
+          "role": "text",
+          "name": "57.8 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Happy Egg Co Organic Free-Range Large Brown Eggs, 12 Count (Dozen)"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1246"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Only 7 left"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best Cage Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1259"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best Cage Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1269"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best Cage Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1271"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best Cage Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1274"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best Cage Free Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1279"
+        },
+        {
+          "role": "text",
+          "name": "current price $5.72"
+        },
+        {
+          "role": "text",
+          "name": "47.7 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best Cage Free Large Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1301"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1312"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1321"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1323"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1326"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1331"
+        },
+        {
+          "role": "text",
+          "name": "current price $7.32"
+        },
+        {
+          "role": "text",
+          "name": "40.7 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1353"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 6 Count",
+          "keyshortcuts": "1364"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Grade AA Large White Eggs, 6 Count",
+          "keyshortcuts": "1373"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 6 Count",
+          "keyshortcuts": "1375"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Grade AA Large White Eggs, 6 Count",
+          "keyshortcuts": "1378"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Grade AA Large White Eggs, 6 Count",
+          "keyshortcuts": "1383"
+        },
+        {
+          "role": "text",
+          "name": "current price $2.54"
+        },
+        {
+          "role": "text",
+          "name": "42.3 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Grade AA Large White Eggs, 6 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1405"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best Cage Free Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1416"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best Cage Free Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1424"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best Cage Free Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1426"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best Cage Free Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1429"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best Cage Free Extra Large White Eggs, 18 Count",
+          "keyshortcuts": "1434"
+        },
+        {
+          "role": "text",
+          "name": "current price $8.57"
+        },
+        {
+          "role": "text",
+          "name": "47.6 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best Cage Free Extra Large White Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1456"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count",
+          "keyshortcuts": "1467"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count",
+          "keyshortcuts": "1475"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count",
+          "keyshortcuts": "1477"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count",
+          "keyshortcuts": "1480"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count",
+          "keyshortcuts": "1485"
+        },
+        {
+          "role": "text",
+          "name": "current price $4.96"
+        },
+        {
+          "role": "text",
+          "name": "41.3 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Grade AA Extra Large White Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1507"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "1518"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "1526"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "1528"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "1531"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best Cage Free Large White Eggs, 12 Count",
+          "keyshortcuts": "1536"
+        },
+        {
+          "role": "text",
+          "name": "current price $5.66"
+        },
+        {
+          "role": "text",
+          "name": "47.2 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best Cage Free Large White Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1558"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best Cage Free Large White Eggs, 18 Count",
+          "keyshortcuts": "1569"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best Cage Free Large White Eggs, 18 Count",
+          "keyshortcuts": "1577"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best Cage Free Large White Eggs, 18 Count",
+          "keyshortcuts": "1579"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best Cage Free Large White Eggs, 18 Count",
+          "keyshortcuts": "1582"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best Cage Free Large White Eggs, 18 Count",
+          "keyshortcuts": "1587"
+        },
+        {
+          "role": "text",
+          "name": "current price $8.00"
+        },
+        {
+          "role": "text",
+          "name": "44.4 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best Cage Free Large White Eggs, 18 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1609"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free White Jumbo Eggs, 12 Count",
+          "keyshortcuts": "1620"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free White Jumbo Eggs, 12 Count",
+          "keyshortcuts": "1628"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free White Jumbo Eggs, 12 Count",
+          "keyshortcuts": "1630"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free White Jumbo Eggs, 12 Count",
+          "keyshortcuts": "1633"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free White Jumbo Eggs, 12 Count",
+          "keyshortcuts": "1638"
+        },
+        {
+          "role": "text",
+          "name": "current price $5.53"
+        },
+        {
+          "role": "text",
+          "name": "46.1 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free White Jumbo Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1660"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count",
+          "keyshortcuts": "1671"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count",
+          "keyshortcuts": "1679"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count",
+          "keyshortcuts": "1681"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count",
+          "keyshortcuts": "1684"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count",
+          "keyshortcuts": "1689"
+        },
+        {
+          "role": "text",
+          "name": "current price $6.00"
+        },
+        {
+          "role": "text",
+          "name": "50.0 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best Farm Fresh Cage Free Extra Large White Grade AA Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1711"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "STICKY FRIED EGGS (12 CT)",
+          "keyshortcuts": "1722"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, STICKY FRIED EGGS (12 CT)",
+          "keyshortcuts": "1730"
+        },
+        {
+          "role": "image",
+          "name": "STICKY FRIED EGGS (12 CT)",
+          "keyshortcuts": "1732"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - STICKY FRIED EGGS (12 CT)",
+          "keyshortcuts": "1735"
+        },
+        {
+          "role": "text",
+          "name": "current price $28.99"
+        },
+        {
+          "role": "text",
+          "name": "STICKY FRIED EGGS (12 CT)"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "link",
+          "name": "Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1757"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1765"
+        },
+        {
+          "role": "image",
+          "name": "Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1767"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1770"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count",
+          "keyshortcuts": "1775"
+        },
+        {
+          "role": "text",
+          "name": "current price $6.00"
+        },
+        {
+          "role": "text",
+          "name": "50.0 \u00a2/ea"
+        },
+        {
+          "role": "text",
+          "name": "Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1797"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs",
+          "keyshortcuts": "1808"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs",
+          "keyshortcuts": "1816"
+        },
+        {
+          "role": "image",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs",
+          "keyshortcuts": "1818"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs",
+          "keyshortcuts": "1821"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs",
+          "keyshortcuts": "1826"
+        },
+        {
+          "role": "text",
+          "name": "current price $3.27"
+        },
+        {
+          "role": "text",
+          "name": "54.5 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 6 Eggs"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1848"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count",
+          "keyshortcuts": "1859"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count",
+          "keyshortcuts": "1867"
+        },
+        {
+          "role": "image",
+          "name": "Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count",
+          "keyshortcuts": "1869"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count",
+          "keyshortcuts": "1872"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count",
+          "keyshortcuts": "1877"
+        },
+        {
+          "role": "text",
+          "name": "current price $4.26"
+        },
+        {
+          "role": "text",
+          "name": "45.8 \u00a2/oz"
+        },
+        {
+          "role": "text",
+          "name": "Great Value Cage-Free Hard Boiled Eggs, 9.31 oz, 6 Count"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1899"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton",
+          "keyshortcuts": "1910"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton",
+          "keyshortcuts": "1918"
+        },
+        {
+          "role": "image",
+          "name": "Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton",
+          "keyshortcuts": "1920"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton",
+          "keyshortcuts": "1923"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton",
+          "keyshortcuts": "1928"
+        },
+        {
+          "role": "text",
+          "name": "current price $7.36"
+        },
+        {
+          "role": "text",
+          "name": "23.0 \u00a2/oz"
+        },
+        {
+          "role": "text",
+          "name": "Egg Beaters Cage Free Original Liquid Egg Whites, 32 oz Carton"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "1950"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Large Saving Fillable Easter Eggs, Ceramic Yellow",
+          "keyshortcuts": "1961"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Large Saving Fillable Easter Eggs, Ceramic Yellow",
+          "keyshortcuts": "1969"
+        },
+        {
+          "role": "image",
+          "name": "Large Saving Fillable Easter Eggs, Ceramic Yellow",
+          "keyshortcuts": "1971"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Large Saving Fillable Easter Eggs, Ceramic Yellow",
+          "keyshortcuts": "1974"
+        },
+        {
+          "role": "text",
+          "name": "current price $26.49"
+        },
+        {
+          "role": "text",
+          "name": "Large Saving Fillable Easter Eggs, Ceramic Yellow"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 2 left"
+        },
+        {
+          "role": "link",
+          "name": "Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs",
+          "keyshortcuts": "1998"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs",
+          "keyshortcuts": "2006"
+        },
+        {
+          "role": "image",
+          "name": "Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs",
+          "keyshortcuts": "2008"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs",
+          "keyshortcuts": "2011"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs",
+          "keyshortcuts": "2016"
+        },
+        {
+          "role": "text",
+          "name": "current price Now $9.58"
+        },
+        {
+          "role": "text",
+          "name": "Was $15.74"
+        },
+        {
+          "role": "text",
+          "name": "24.0 \u00a2/oz"
+        },
+        {
+          "role": "text",
+          "name": "Big John's Ready To Eat Pickled Eggs 40oz Jar, contains eggs"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "2040"
+        },
+        {
+          "role": "text",
+          "name": "Shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "link",
+          "name": "Blank 12-Egg Flat Top Paper Pulp Carton - Bulk Egg Cartons (125)",
+          "keyshortcuts": "2048"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Blank 12-Egg Flat Top Paper Pulp Carton - Bulk Egg Cartons (125)",
+          "keyshortcuts": "2056"
+        },
+        {
+          "role": "image",
+          "name": "Blank 12-Egg Flat Top Paper Pulp Carton - Bulk Egg Cartons (125)",
+          "keyshortcuts": "2058"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Blank 12-Egg Flat Top Paper Pulp Carton - Bulk Egg Cartons (125)",
+          "keyshortcuts": "2061"
+        },
+        {
+          "role": "text",
+          "name": "current price $79.95"
+        },
+        {
+          "role": "text",
+          "name": "Blank 12-Egg Flat Top Paper Pulp Carton - Bulk Egg Cartons (125)"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "link",
+          "name": "30 hole quail egg cartons for jumbo quail eggs 50 count",
+          "keyshortcuts": "2083"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, 30 hole quail egg cartons for jumbo quail eggs 50 count",
+          "keyshortcuts": "2091"
+        },
+        {
+          "role": "image",
+          "name": "30 hole quail egg cartons for jumbo quail eggs 50 count",
+          "keyshortcuts": "2093"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - 30 hole quail egg cartons for jumbo quail eggs 50 count",
+          "keyshortcuts": "2096"
+        },
+        {
+          "role": "text",
+          "name": "current price $47.29"
+        },
+        {
+          "role": "text",
+          "name": "30 hole quail egg cartons for jumbo quail eggs 50 count"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "link",
+          "name": "Blue Eggs in Carton 3.5x5.5\"",
+          "keyshortcuts": "2118"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Blue Eggs in Carton 3.5x5.5\"",
+          "keyshortcuts": "2126"
+        },
+        {
+          "role": "image",
+          "name": "Blue Eggs in Carton 3.5x5.5\"",
+          "keyshortcuts": "2128"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Blue Eggs in Carton 3.5x5.5\"",
+          "keyshortcuts": "2131"
+        },
+        {
+          "role": "text",
+          "name": "current price $16.97"
+        },
+        {
+          "role": "text",
+          "name": "Blue Eggs in Carton 3.5x5.5\""
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 2 left"
+        },
+        {
+          "role": "link",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs",
+          "keyshortcuts": "2155"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs",
+          "keyshortcuts": "2164"
+        },
+        {
+          "role": "image",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs",
+          "keyshortcuts": "2166"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs",
+          "keyshortcuts": "2169"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs",
+          "keyshortcuts": "2174"
+        },
+        {
+          "role": "text",
+          "name": "current price $1.64"
+        },
+        {
+          "role": "text",
+          "name": "82.0 \u00a2/count"
+        },
+        {
+          "role": "text",
+          "name": "Great Day Farms Hard-Boiled Cage Free Eggs, 2 Eggs"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "2196"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Today Is A New Day Vintage Christmas Choir Boys Stuff for Dads for Christmas Vital Farms Hard Boiled Eggs Hard Boiled Eggs with No Mess First Home Eggs Extra Large 12 Christmas",
+          "keyshortcuts": "2207"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Today Is A New Day Vintage Christmas Choir Boys Stuff for Dads for Christmas Vital Farms Hard Boiled Eggs Hard Boiled Eggs with No Mess First Home Eggs Extra Large 12 Christmas",
+          "keyshortcuts": "2216"
+        },
+        {
+          "role": "image",
+          "name": "Today Is A New Day Vintage Christmas Choir Boys Stuff for Dads for Christmas Vital Farms Hard Boiled Eggs Hard Boiled Eggs with No Mess First Home Eggs Extra Large 12 Christmas",
+          "keyshortcuts": "2218"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Today Is A New Day Vintage Christmas Choir Boys Stuff for Dads for Christmas Vital Farms Hard Boiled Eggs Hard Boiled Eggs with No Mess First Home Eggs Extra Large 12 Christmas",
+          "keyshortcuts": "2221"
+        },
+        {
+          "role": "text",
+          "name": "current price $16.29"
+        },
+        {
+          "role": "text",
+          "name": "Today Is A New Day Vintage Christmas Choir Boys Stuff for Dads for Christmas Vital Farms Hard Boiled Eggs Hard Boiled Eggs with No Mess First Home Eggs Extra Large 12 Christmas"
+        },
+        {
+          "role": "text",
+          "name": "4.3 out of 5 Stars. 3 reviews"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "link",
+          "name": "Polished Polychrome Egg from Madagascar (.6 lbs)",
+          "keyshortcuts": "2252"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Polished Polychrome Egg from Madagascar (.6 lbs)",
+          "keyshortcuts": "2261"
+        },
+        {
+          "role": "image",
+          "name": "Polished Polychrome Egg from Madagascar (.6 lbs)",
+          "keyshortcuts": "2263"
+        },
+        {
+          "role": "text",
+          "name": "Polished Polychrome Egg from Madagascar (.6 lbs)"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 1 left"
+        },
+        {
+          "role": "link",
+          "name": "Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup",
+          "keyshortcuts": "2279"
+        },
+        {
+          "role": "text",
+          "name": "Best seller"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup",
+          "keyshortcuts": "2289"
+        },
+        {
+          "role": "image",
+          "name": "Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup",
+          "keyshortcuts": "2291"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup",
+          "keyshortcuts": "2294"
+        },
+        {
+          "role": "button",
+          "name": "Subscribe Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup",
+          "keyshortcuts": "2299"
+        },
+        {
+          "role": "text",
+          "name": "current price $2.82"
+        },
+        {
+          "role": "text",
+          "name": "94.0 \u00a2/oz"
+        },
+        {
+          "role": "text",
+          "name": "Just Crack an Egg All American Scramble Breakfast Bowl Kit with Potatoes, Sharp Cheddar Cheese and Uncured Bacon, 3 oz. Cup"
+        },
+        {
+          "role": "text",
+          "name": "EBT eligible"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "2321"
+        },
+        {
+          "role": "text",
+          "name": "Pickup "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "text",
+          "name": "Delivery "
+        },
+        {
+          "role": "text",
+          "name": "today"
+        },
+        {
+          "role": "link",
+          "name": "Eastland Food Asian Best Quail Eggs, 15 oz",
+          "keyshortcuts": "2332"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Eastland Food Asian Best Quail Eggs, 15 oz",
+          "keyshortcuts": "2340"
+        },
+        {
+          "role": "image",
+          "name": "Eastland Food Asian Best Quail Eggs, 15 oz",
+          "keyshortcuts": "2342"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Eastland Food Asian Best Quail Eggs, 15 oz",
+          "keyshortcuts": "2345"
+        },
+        {
+          "role": "text",
+          "name": "current price $10.99"
+        },
+        {
+          "role": "text",
+          "name": "Eastland Food Asian Best Quail Eggs, 15 oz"
+        },
+        {
+          "role": "text",
+          "name": "Save with"
+        },
+        {
+          "role": "image",
+          "name": "Walmart Plus",
+          "keyshortcuts": "2362"
+        },
+        {
+          "role": "text",
+          "name": "Shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 2 days"
+        },
+        {
+          "role": "link",
+          "name": "Egg Blue",
+          "keyshortcuts": "2370"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Egg Blue",
+          "keyshortcuts": "2378"
+        },
+        {
+          "role": "image",
+          "name": "Egg Blue",
+          "keyshortcuts": "2380"
+        },
+        {
+          "role": "button",
+          "name": "Add to cart - Egg Blue",
+          "keyshortcuts": "2383"
+        },
+        {
+          "role": "text",
+          "name": "current price $105.05"
+        },
+        {
+          "role": "text",
+          "name": "Egg Blue"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 4 left"
+        },
+        {
+          "role": "link",
+          "name": "Knotts Foods brand Pickled Eggs",
+          "keyshortcuts": "2407"
+        },
+        {
+          "role": "button",
+          "name": "Sign in to add to Favorites list, Knotts Foods brand Pickled Eggs",
+          "keyshortcuts": "2415"
+        },
+        {
+          "role": "image",
+          "name": "Knotts Foods brand Pickled Eggs",
+          "keyshortcuts": "2417"
+        },
+        {
+          "role": "text",
+          "name": "Knotts Foods brand Pickled Eggs"
+        },
+        {
+          "role": "text",
+          "name": "Free shipping, arrives "
+        },
+        {
+          "role": "text",
+          "name": "in 3+ days"
+        },
+        {
+          "role": "text",
+          "name": "Only 9 left"
+        }
+      ]
+    },
+    {
+      "role": "heading",
+      "name": "Related searches",
+      "keyshortcuts": "2433",
+      "level": 2
+    },
+    {
+      "role": "list",
+      "name": "",
+      "keyshortcuts": "2437",
+      "children": [
+        {
+          "role": "button",
+          "name": "Related searches milk",
+          "keyshortcuts": "2440",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches bacon",
+          "keyshortcuts": "2445",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches bread",
+          "keyshortcuts": "2450",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches butter",
+          "keyshortcuts": "2455",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches sausage",
+          "keyshortcuts": "2460",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches cheese",
+          "keyshortcuts": "2465",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches potatoes",
+          "keyshortcuts": "2470",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches bananas",
+          "keyshortcuts": "2475",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches sour cream",
+          "keyshortcuts": "2480",
+          "pressed": false
+        },
+        {
+          "role": "button",
+          "name": "Related searches cream cheese",
+          "keyshortcuts": "2485",
+          "pressed": false
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "1",
+      "keyshortcuts": "2497"
+    },
+    {
+      "role": "button",
+      "name": "Go to Page 2",
+      "keyshortcuts": "2499"
+    },
+    {
+      "role": "button",
+      "name": "Go to Page 3",
+      "keyshortcuts": "2501"
+    },
+    {
+      "role": "button",
+      "name": "Go to Page 4",
+      "keyshortcuts": "2503"
+    },
+    {
+      "role": "button",
+      "name": "Next Page",
+      "keyshortcuts": "2505"
+    },
+    {
+      "role": "text",
+      "name": "We\u2019d love to hear what you think!"
+    },
+    {
+      "role": "button",
+      "name": "Give feedback",
+      "keyshortcuts": "2516"
+    },
+    {
+      "role": "link",
+      "name": "All Departments",
+      "keyshortcuts": "2521"
+    },
+    {
+      "role": "link",
+      "name": "Store Directory - opens in a new window",
+      "keyshortcuts": "2523"
+    },
+    {
+      "role": "link",
+      "name": "Careers - opens in a new window",
+      "keyshortcuts": "2525"
+    },
+    {
+      "role": "link",
+      "name": "Our Company - opens in a new window",
+      "keyshortcuts": "2527"
+    },
+    {
+      "role": "link",
+      "name": "Sell on Walmart.com - opens in a new window",
+      "keyshortcuts": "2529"
+    },
+    {
+      "role": "link",
+      "name": "Help",
+      "keyshortcuts": "2531"
+    },
+    {
+      "role": "link",
+      "name": "Product Recalls - opens in a new window",
+      "keyshortcuts": "2533"
+    },
+    {
+      "role": "link",
+      "name": "Accessibility - opens in a new window",
+      "keyshortcuts": "2535"
+    },
+    {
+      "role": "link",
+      "name": "Tax Exempt Program",
+      "keyshortcuts": "2537"
+    },
+    {
+      "role": "link",
+      "name": "Get the Walmart App",
+      "keyshortcuts": "2539"
+    },
+    {
+      "role": "link",
+      "name": "Sign-up for Email",
+      "keyshortcuts": "2541"
+    },
+    {
+      "role": "link",
+      "name": "Safety Data Sheet",
+      "keyshortcuts": "2543"
+    },
+    {
+      "role": "link",
+      "name": "Terms of Use",
+      "keyshortcuts": "2545"
+    },
+    {
+      "role": "link",
+      "name": "Privacy & Security - opens in a new window",
+      "keyshortcuts": "2547"
+    },
+    {
+      "role": "link",
+      "name": "California Supply Chain Act - opens in a new window",
+      "keyshortcuts": "2549"
+    },
+    {
+      "role": "link",
+      "name": "Your Privacy Choices - opens in a new window",
+      "keyshortcuts": "2551"
+    },
+    {
+      "role": "link",
+      "name": "Notice at Collection - opens in a new window",
+      "keyshortcuts": "2554"
+    },
+    {
+      "role": "link",
+      "name": "AdChoices",
+      "keyshortcuts": "2556"
+    },
+    {
+      "role": "link",
+      "name": "Consumer Health Data Privacy Notices",
+      "keyshortcuts": "2558"
+    },
+    {
+      "role": "link",
+      "name": "Request My Personal Information - opens in a new window",
+      "keyshortcuts": "2560"
+    },
+    {
+      "role": "link",
+      "name": "Brand Shop Directory",
+      "keyshortcuts": "2562"
+    },
+    {
+      "role": "link",
+      "name": "Pharmacy",
+      "keyshortcuts": "2564"
+    },
+    {
+      "role": "link",
+      "name": "Walmart Business",
+      "keyshortcuts": "2566"
+    },
+    {
+      "role": "link",
+      "name": "#IYWYK",
+      "keyshortcuts": "2568"
+    },
+    {
+      "role": "link",
+      "name": "Delete Account",
+      "keyshortcuts": "2570"
+    },
+    {
+      "role": "text",
+      "name": "\u00a9 2024 Walmart. All Rights Reserved."
+    },
+    {
+      "role": "text",
+      "name": "/search?q=eggs"
+    }
+  ]
+}
