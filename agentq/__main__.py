@@ -6,6 +6,7 @@ import openai
 from dotenv import load_dotenv
 import os
 import requests
+import pyttsx3  # Text-to-speech library
 
 from agentq.core.agent.agentq import AgentQ
 from agentq.core.agent.agentq_actor import AgentQActor
@@ -23,6 +24,11 @@ load_dotenv()
 
 # Set the OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# Initialize text-to-speech engine
+engine = pyttsx3.init()
+engine.setProperty('voice', 'com.apple.speech.synthesis.voice.daniel')
+
 # Map states to agents
 state_to_agent_map = {
     State.PLAN: PlannerAgent(),
@@ -54,7 +60,6 @@ def transcribe_audio(filename="input.wav"):
     print("[DEBUG] Transcription API Response:", response_data)
     return response_data.get("text", "Transcription failed.")
 
-
 # Define the response model
 class EnhancedPromptResponse(BaseModel):
     content: str
@@ -62,18 +67,13 @@ class EnhancedPromptResponse(BaseModel):
 # Initialize instructor client
 client = from_openai(openai.Client(), mode=Mode.JSON)
 
+# Enhance the user's input prompt for clarity and alignment with Agent-Q's capabilities
 def enhance_prompt(user_input):
-    """
-    Enhances the user's input prompt for better clarity and alignment with Agent-Q's capabilities.
-    """
     try:
-        # Define the system and user messages
         messages = [
             {
                 "role": "system",
-                "content": (
-                    "You are a command refiner for a web automation agent. Expand the user's input into a clear, detailed, and actionable command."
-                ),
+                "content": "You are a command refiner for a web automation agent. Expand the user's input into a clear, detailed, and actionable command."
             },
             {
                 "role": "user",
@@ -81,20 +81,18 @@ def enhance_prompt(user_input):
             },
         ]
 
-        # Call the instructor-wrapped OpenAI API with response model
         response = client.chat.completions.create(
-            model="gpt-4o-2024-08-06",  # Ensure you have access to GPT-4
+            model="gpt-4o-2024-08-06",
             messages=messages,
-            response_model=EnhancedPromptResponse,  # Specify the response model
+            response_model=EnhancedPromptResponse,
         )
 
-        # Extract the enhanced prompt
         enhanced_prompt = response.content.strip()
         print(f"[DEBUG] Enhanced Prompt: {enhanced_prompt}")
         return enhanced_prompt
     except Exception as e:
         print(f"[ERROR] Error enhancing prompt: {e}")
-        return user_input  # Fallback to original input
+        return user_input
 
 # Helper to get command input via typing or speech
 def get_command_input():
@@ -106,31 +104,29 @@ def get_command_input():
     else:
         command = input("Enter your command: ")
 
-    # Enhance the command
     enhanced_command = enhance_prompt(command)
     print(f"[INFO] Final Enhanced Command: {enhanced_command}")
     return enhanced_command
 
-# Async function to run the agent
 async def run_agent(command):
+    # Speak a static confirmation response
+    confirmation = "Absolutely, let me get that started for you."
+    print(f"[INFO] Speaking Response: {confirmation}")
+    engine.say(confirmation)
+    engine.runAndWait()
+
+    # Execute the task
     print(f"[INFO] Command passed to Agent: {command}")
     orchestrator = Orchestrator(state_to_agent_map=state_to_agent_map, eval_mode=True)
     await orchestrator.start()
+
     page: Page = await orchestrator.playwright_manager.get_current_page()
     await page.set_extra_http_headers({"User-Agent": "AgentQ-Bot"})
+
+    print("[INFO] Executing command...")
     result = await orchestrator.execute_command(command)
+    print("[INFO] Task Execution Complete.")
     return result
-
-# Wrapper to run the agent synchronously
-def run_agent_sync():
-    if asyncio.get_event_loop().is_closed():
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-    else:
-        loop = asyncio.get_event_loop()
-
-    command = get_command_input()
-    return loop.run_until_complete(run_agent(command))
 
 # Main loop
 async def main():
