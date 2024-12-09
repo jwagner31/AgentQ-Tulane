@@ -1,4 +1,5 @@
 # AgentQ - Advanced Reasoning and Learning for Autonomous AI Agents
+GROUP PROJECT FOR CMPS 6740 Reinforcement Learning
 
 AgentQ is a sophisticated AI framework designed to enhance autonomous reasoning and learning capabilities for AI agents. It leverages various agentic architectures to perform complex tasks on the web reliably.
 
@@ -91,51 +92,3 @@ python -u -m agentq
 python -m agentq.core.mcts.browser_mcts
 ```
 
-#### citations
-
-a bunch of amazing work in the space has inspired this.
-
-```
-@misc{putta2024agentqadvancedreasoning,
-title={Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents},
-author={Pranav Putta and Edmund Mills and Naman Garg and Sumeet Motwani and Chelsea Finn and Divyansh Garg and Rafael Rafailov},
-year={2024},
-eprint={2408.07199},
-archivePrefix={arXiv},
-primaryClass={cs.AI},
-url={https://arxiv.org/abs/2408.07199},
-}
-```
-
-```
-@inproceedings{yao2022webshop,
-  bibtex_show = {true},
-  title = {WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents},
-  author = {Yao, Shunyu and Chen, Howard and Yang, John and Narasimhan, Karthik},
-  booktitle = {ArXiv},
-  year = {preprint},
-  html = {https://arxiv.org/abs/2207.01206},
-  tag = {NLP}
-}
-```
-
-```
-@article{he2024webvoyager,
-title={WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models},
-author={He, Hongliang and Yao, Wenlin and Ma, Kaixin and Yu, Wenhao and Dai, Yong and Zhang, Hongming and Lan, Zhenzhong and Yu, Dong},
-journal={arXiv preprint arXiv:2401.13919},
-year={2024}
-}
-```
-
-```
-@misc{abuelsaad2024-agente,
-title={Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems},
-author={Tamer Abuelsaad and Deepak Akkil and Prasenjit Dey and Ashish Jagmohan and Aditya Vempaty and Ravi Kokku},
-year={2024},
-eprint={2407.13032},
-archivePrefix={arXiv},
-primaryClass={cs.AI},
-url={https://arxiv.org/abs/2407.13032},
-}
-```
