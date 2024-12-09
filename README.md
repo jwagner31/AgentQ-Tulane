@@ -1,60 +1,79 @@
-# agentq - advanced reasoning and learning for autonomous AI agents
+# AgentQ - Advanced Reasoning and Learning for Autonomous AI Agents
 
-agentq utilises various kinds of agentic architectures to complete a task on the web reliably.
-it has
+AgentQ is a sophisticated AI framework designed to enhance autonomous reasoning and learning capabilities for AI agents. It leverages various agentic architectures to perform complex tasks on the web reliably.
 
-```
-1. a planner <> navigator multi-agent architecutre
-2. a solo planner-actor agent
-3. an actor <> critic multi-agent architecture
-4. actor <> critic architecture + monte carlo tree search based reinforcement learning + dpo finetuning
-```
+This repository is built upon the open-source implementation of the research paper [Agent Q](https://arxiv.org/abs/2408.07199), expanding its functionalities to explore reinforcement learning (RL) and fine-tuning strategies specifically designed for interactive and dynamic environments. By augmenting the existing framework with additional RL-based components, this project aims to push the boundaries of what autonomous agents can achieve in partially observable environments.
 
-this repo also contains an oss implementation of the research paper [agent q](https://arxiv.org/abs/2408.07199) - thus the name.
+## Features
 
-### setup
+AgentQ includes the following architectures:
+- Planner <> Navigator multi-agent architecture
+- Solo planner-actor agent
+- Actor <> Critic multi-agent architecture
+- Actor <> Critic architecture with Monte Carlo Tree Search-based reinforcement learning and DPO fine-tuning
+- Vision Agent: Implemented but not fully integrated, with potential for expanding multimodal capabilities in future iterations.
 
-1. we recommend installing poetry before proceeding with the next steps. you can install poetry using these [instructions](https://python-poetry.org/docs/#installation)
 
-2. install dependencies
+This repository enhances the original implementation by introducing new features and experimental configurations, particularly for RL-based workflows.
 
-```bash
-poetry install
-```
+## OpenAI Integration
 
-3. start chrome in dev mode - in a seaparate terminal, use the command to start a chrome instance and do necesssary logins to job websites like linkedin/ wellfound, etc.
+AgentQ leverages OpenAI's advanced language models to enhance its decision-making and interaction capabilities. This integration provides:
 
-for mac, use command -
+- **Enhanced Prompting**: Utilizes OpenAI's models to generate more accurate and context-aware responses, improving the agent's ability to understand and execute complex tasks.
+- **Real-time API Access**: Connects to OpenAI's API for real-time processing,
 
-```bash
-sudo /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
-```
+### Setting Up OpenAI API
 
-for linux -
+1. **Obtain an API Key**: Sign up for an OpenAI account and obtain an API key from the [OpenAI Dashboard](https://platform.openai.com/).
+2. **Configure Environment Variables**:
+   - Add your OpenAI API key to the `.env` file:
+     ```plaintext
+     OPENAI_API_KEY=your_openai_api_key_here
+     ```
 
-```bash
-google-chrome --remote-debugging-port=9222
-```
+## Setup
 
-for windows -
+### Prerequisites
 
-```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
-```
+1. **Python**: Ensure you have Python 3.10 or later installed.
+2. **Poetry**: We recommend using Poetry for dependency management. Install it using the [official instructions](https://python-poetry.org/docs/#installation).
 
-4. set up env - add openai and [langfuse](https://langfuse.com) keys to .env file. you can refer .env.example. currently adding langfuse is required. If you do not want tracing - then you can do the following changes
+### Installation
 
-   - directly import open ai client via `import openai` rather than `from langfuse.openai import openai` in the `./agentq/core/agent/base.py` file.
-   - you would also have to comment out the @obseve decorator and the below piece of code from the `run` function in the same file
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/agentq.git
+   cd agentq
 
-   ```python
-   langfuse_context.update_current_trace(
-               name=self.agnet_name,
-               session_id=session_id
-         )
+
+2. **Install Dependencies**:
+   Use Poetry to install the required dependencies.
+   ```bash
+   poetry install
    ```
 
-5. run the agent
+3. **Configure Environment Variables**:
+   - Create a `.env` file in the root directory.
+   - Add your OpenAI and Langfuse API keys. Refer to `.env.example` for guidance.
+
+4. **Start Chrome in Dev Mode**:
+   - **Mac**:
+     ```bash
+     sudo /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+     ```
+   - **Linux**:
+     ```bash
+     google-chrome --remote-debugging-port=9222
+     ```
+   - **Windows**:
+     ```bash
+     "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+     ```
+
+### Running the Agent
+
+To run the agent, execute the following command:
 
 ```bash
 python -u -m agentq

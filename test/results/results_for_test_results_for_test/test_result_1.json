@@ -1,0 +1,13 @@
+{
+    "task_id": 1,
+    "task_index": null,
+    "start_url": "https://www.google.com",
+    "intent": "find nothing phone 2 on amazon and sort the results by price highest first",
+    "last_url": "https://www.amazon.com/s?k=Nothing+Phone+2&s=price-desc-rank&crid=30J6KBROGKIPU&qid=1733713163&sprefix=nothing+phone+2%2Caps%2C223&ref=sr_st_price-desc-rank&ds=v1%3AQdzy%2FHLqsNT1oPa8%2FaNBrItJC5sPhifz2UiXSzuYTNc",
+    "tct": 434.212345123291,
+    "start_ts": "2024-12-08 21:00:40",
+    "completion_ts": "2024-12-08 21:00:40",
+    "last_statement": "The search for 'Nothing Phone 2' on Amazon has successfully resulted in listings being sorted by price from highest to lowest, completing the given objective.",
+    "score": 1.0,
+    "reason": null
+}
